@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vário dispositivos ou simplismente aumente e diminua o seu navegador</p>   
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto dinâmica">
+    </picture>
+    <h1>Reproduzindo Áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="midia/WhatsApp Audio 2023-09-05 at 12.22.34.mp3" controls></audio>
+    <h1>Vamos Inserir Vídeos</h1>
+    <p>Este vídeo esta hospedado no meu servidor.</p>
+    <video src="midia/pexels-sunsetoned-5913482 (2160p).mp4" width="300" controls></video>
+    <video src="midia/pexels-emanuel-panarello-18126060 (2160p).mp4" width="500" controls></video>
+    
+<h1>Inserindo videos do youtube</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ds9feWZgL7E?si=AJhO6YdRcWmzmkyn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>
